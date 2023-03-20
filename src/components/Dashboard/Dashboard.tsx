@@ -6,13 +6,15 @@ import React, { useState } from "react";
 const Dashboard = () => {
   const [isDrawerOpen, setIsDrawerOpen] = useState(false);
 
-  const handleClick = () => {
-    setIsDrawerOpen(!isDrawerOpen);
+  const handleClick = (e: any) => {
+    if (e.target.id === "background") setIsDrawerOpen(!isDrawerOpen);
+    if (e.target.style.opacity === "1") setIsDrawerOpen(!isDrawerOpen);
   };
 
   return (
     <div
-      onClick={handleClick}
+      onClick={(e) => handleClick(e)}
+      id="background"
       className="Dashboard"
       style={{
         backgroundImage: `url(${image})`,
