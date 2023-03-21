@@ -156,12 +156,14 @@ export const MuiDrawer = () => {
             <p>Cancel class</p>
           </span>
         </div>
-        <img
-          id="fitnessIcon"
-          src="https://www.freeiconspng.com/thumbs/exercise-icon/exercise-icon-1.png"
-          alt="icon"
-        ></img>
-        <h3>Workout of the day</h3>
+        <div id="divImage" style={{ textAlign: "center" }}>
+          <img
+            id="fitnessIcon"
+            src="https://www.freeiconspng.com/thumbs/exercise-icon/exercise-icon-1.png"
+            alt="icon"
+          ></img>
+          <h3>Workout of the day</h3>
+        </div>
         <hr />
         <div id="containerDivs">
           <div>

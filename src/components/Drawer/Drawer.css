@@ -60,6 +60,7 @@ span {
   margin: 0;
   font-size: 18px;
   font-weight: 500;
+  width: 100px;
 }
 
 .personIcons {
@@ -178,4 +179,83 @@ span {
 .button:active {
   background-color: #298e46;
   box-shadow: rgba(20, 70, 32, 0.2) 0 1px 0 inset;
+}
+
+@media only screen and (max-width: 710px) {
+  .css-1160xiw-MuiPaper-root-MuiDrawer-paper {
+    width: 548px;
+  }
+}
+
+@media only screen and (max-width: 660px) {
+  .css-1160xiw-MuiPaper-root-MuiDrawer-paper {
+    width: 450px;
+  }
+  #divImage {
+    width: 75% !important;
+  }
+  #containerDivs {
+    width: 75%;
+  }
+  #dropdownDiv {
+    width: 75%;
+  }
+  #divInfo {
+    max-width: 70%;
+  }
+}
+
+@media only screen and (max-width: 530px) {
+  .css-1160xiw-MuiPaper-root-MuiDrawer-paper {
+    width: 380px;
+  }
+  #divImage {
+    width: 63% !important;
+  }
+  #containerDivs {
+    width: 65%;
+  }
+  #dropdownDiv {
+    width: 63%;
+  }
+  #divInfo {
+    max-width: 55%;
+  }
+  .personDiv {
+    width: 60%;
+  }
+}
+
+@media only screen and (max-width: 440px) {
+  .css-1160xiw-MuiPaper-root-MuiDrawer-paper {
+    width: 300px;
+  }
+  #divImage {
+    width: 50% !important;
+  }
+  #containerDivs {
+    width: 50%;
+  }
+  .icon {
+    font-size: 40px !important;
+  }
+  #dropdownDiv {
+    width: 45%;
+  }
+  #divInfo {
+    max-width: 35%;
+  }
+  .personDiv {
+    width: 42%;
+  }
+  .menImage {
+    width: 30px;
+  }
+  .button,
+  .button-3 {
+    font-size: 12px;
+  }
+  .personName {
+    font-size: 10px;
+  }
 }
